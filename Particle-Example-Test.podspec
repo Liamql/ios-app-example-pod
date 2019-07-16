@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
     s.source_files = "ParticleTest/**/*.{h,m,mm}"
 
     s.app_spec 'SampleApp' do |app_spec|
-        app_spec.source_files = "ios-app-particle-setup/**/*.{swift}"
+        app_spec.source_files = "ios-app-particle-setup/**/*.{swift,h}"
+        app_spec.resources    = 'ios-app-particle-setup/**/*.{storyboard,xcassets}'
         app_spec.dependency 'Particle-SDK'
         app_spec.dependency 'ParticleSetup'
     end
