@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "Particle-Example-Test"
-    s.version          = "0.0.5"
+    s.version          = "0.0.6"
     s.summary          = "Particle iOS Cloud SDK for interacting with Particle powered devices"
     s.description      = <<-DESC
                         Particle (formerly Spark) iOS Cloud SDK Cocoapod library
