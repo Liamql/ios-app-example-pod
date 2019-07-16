@@ -26,6 +26,7 @@
 		50ECDCF32053506A00DD243F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50ECDCF4205352F100DD243F /* Particle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Particle-Bridging-Header.h"; sourceTree = "<group>"; };
 		50ECDCF62053581F00DD243F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5E1304A622DDE0E300C6E6D2 /* ParticleTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleTest.h; sourceTree = "<group>"; };
 		ACA30137ED5ED3FFDD6CEB9D /* libPods-ios-app-particle-setup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-app-particle-setup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68D3A4F94A60DA6AFE62CD8 /* Pods-ios-app-particle-setup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-particle-setup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-app-particle-setup/Pods-ios-app-particle-setup.debug.xcconfig"; sourceTree = "<group>"; };
 		CC218C226DD5BEB75A89E2FD /* Pods-ios-app-particle-setup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-app-particle-setup.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-app-particle-setup/Pods-ios-app-particle-setup.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		50ECDCD52053505500DD243F = {
 			isa = PBXGroup;
 			children = (
+				5E1304A522DDE0A800C6E6D2 /* ParticleTest */,
 				50ECDCF62053581F00DD243F /* README.md */,
 				50ECDCF32053506A00DD243F /* Podfile */,
 				50ECDCE02053505500DD243F /* ios-app-particle-setup */,
@@ -92,6 +94,14 @@
 				CC218C226DD5BEB75A89E2FD /* Pods-ios-app-particle-setup.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E1304A522DDE0A800C6E6D2 /* ParticleTest */ = {
+			isa = PBXGroup;
+			children = (
+				5E1304A622DDE0E300C6E6D2 /* ParticleTest.h */,
+			);
+			path = ParticleTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
