@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "Particle-Example-Test"
-    s.version          = "0.0.3"
+    s.version          = "0.0.4"
     s.summary          = "Particle iOS Cloud SDK for interacting with Particle powered devices"
     s.description      = <<-DESC
                         Particle (formerly Spark) iOS Cloud SDK Cocoapod library
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.source_files = "ParticleTest/**/*.{h,m,mm}"
 
     s.app_spec 'SampleApp' do |app_spec|
-        app_spec.source_files = "ios-app-particle-setup/**/*.{swift,h,xcassets,lproj,plist}"
+        app_spec.source_files = "ios-app-particle-setup/**/*.{swift}"
     end
 
     s.dependency 'Particle-SDK'
