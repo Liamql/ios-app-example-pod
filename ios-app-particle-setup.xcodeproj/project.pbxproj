@@ -170,7 +170,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ios-app-particle-setup/Pods-ios-app-particle-setup-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ios-app-particle-setup/Pods-ios-app-particle-setup-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/1PasswordExtension/OnePasswordExtensionResources.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/ParticleSetup/ParticleSetup.bundle",
 			);
@@ -181,7 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-app-particle-setup/Pods-ios-app-particle-setup-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-app-particle-setup/Pods-ios-app-particle-setup-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		444AFDACDA47B5FA8023FDF0 /* [CP] Check Pods Manifest.lock */ = {
